@@ -1,0 +1,3612 @@
+/*--------------------------------------------------------------
+# Header Template One Css
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/* Header Top */
+.header-top-area {
+    background-color: var(--technologia-primary-color-two);
+    padding: 5px 50px;
+}
+
+.header-top-info ul li {
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.header-top-info ul li:last-child {
+    margin-right: 0;
+}
+
+.header-top-info-item p {
+    display: inline-block;
+}
+
+.header-top-info-item,
+.header-top-info-item a {
+    color: var(--technologia-black-color-one);
+}
+
+.header-top-info-item i {
+    font-size: 16px;
+}
+
+.header-top-info-item svg {
+    width: 16px;
+    margin-top: -3px;
+    fill: var(--technologia-black-color-one);
+}
+
+.header-top-info-item i,
+.header-top-info-item svg {
+    margin-right: 5px;
+}
+
+.header-top-info a:hover {
+    color: var(--technologia-black-color-one);
+}
+
+.header-top-menu-and-socials {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-top-menu-and-socials {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-top-menu {
+    position: relative;
+    padding-right: 20px;
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.header-top-menu:before {
+    position: absolute;
+    height: 20px;
+    width: 2px;
+    background-color: #000000;
+    content: "";
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-top-menu a {
+    padding: 0 10px;
+    margin-right: 5px;
+}
+
+.header-top-social i {
+    font-size: 16px;
+}
+
+.header-top-social svg {
+    width: 16px;
+    fill: var(--technologia-black-color-one);
+    transition: 0.3s;
+}
+
+.header-top-social a {
+    padding: 0 5px;
+    color: var(--technologia-black-color-one);
+}
+
+.header-top-social a:last-child {
+    padding-right: 0;
+}
+
+.header-top-social a:hover {
+    color: var(--technologia-black-color-one);
+}
+
+.header-top-social a:hover svg {
+    fill: var(--technologia-black-color-one);
+}
+
+/* Header Top End */
+
+/* Header Mobile */
+.header-mobile-icon {
+    background: #f0f5da;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    margin-right: 15px;
+    border: 1px solid #ebebeb;
+}
+
+.header-mobile-number {
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+}
+
+.mobile-subtitle {
+    font-weight: 400;
+    color: #c1c3c4;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    line-height: 22px;
+}
+
+.mobile-number-content,
+.mobile-number-content a {
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+/* Header Mobile End */
+
+/* menu Area */
+.header-logo-and-menu-area-content-wrapper {
+    position: relative;
+}
+
+.technologia-header-template-one .header-nav-and-buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.technologia-header-template-one .header-navigation-area {
+    flex: 1;
+    justify-content: end;
+}
+
+.technologia-header-template-one .main-menu-area {
+    background: transparent;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding: 16px 0px;
+}
+
+.technologia-header-template-one .main-navigation ul li a {
+    color: #ffffff;
+}
+
+.technologia-header-template-one .main-navigation ul li ul li a {
+    color: #ffffff;
+}
+
+.technologia-header-template-one .main-navigation ul li ul li a:hover,
+.technologia-header-template-one .main-navigation ul li ul li.current-menu-item > a,
+.technologia-header-template-one .main-navigation ul li ul li.current_page_item > a,
+.technologia-header-template-one .main-navigation ul li ul li.current-menu-ancestor > a,
+.technologia-header-template-one .main-navigation ul li ul li.current_page_ancestor > a {
+    color: var(--technologia-primary-color-one);
+}
+
+.technologia-header-template-one .header-cta-button .technologia-button {
+    border-color: var(--technologia-primary-color-one);
+    color: #ffffff;
+}
+
+.technologia-header-template-one .main-navigation ul li a:after {
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+    border-radius: 5px;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.technologia-header-template-one .main-navigation ul li a:hover,
+.technologia-header-template-one .main-navigation ul li.current-menu-item > a,
+.technologia-header-template-one .main-navigation ul li.current_page_item > a,
+.technologia-header-template-one .main-navigation ul li.current-menu-ancestor > a,
+.technologia-header-template-one .main-navigation ul li.current_page_ancestor > a {
+ color: #FF755D !important;
+}
+
+.technologia-header-template-one .main-navigation ul li a:hover:after,
+.technologia-header-template-one .main-navigation ul li.current-menu-item > a:after,
+.technologia-header-template-one .main-navigation ul li.current_page_item > a:after,
+.technologia-header-template-one .main-navigation ul li.current-menu-ancestor > a:after,
+.technologia-header-template-one .main-navigation ul li.current_page_ancestor > a:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-navigation ul li a:hover,
+.main-navigation ul li.current-menu-item > a,
+.main-navigation ul li.current_page_item > a,
+.main-navigation ul li.current-menu-ancestor > a,
+.main-navigation ul li.current_page_ancestor > a {
+}
+
+.technologia-header-template-one .main-navigation ul li ul li a:after {
+    display: none;
+}
+
+@media only screen and (min-width: 1500px) {
+    .technologia-header-template-one.layout-two {
+        position: absolute;
+        z-index: 999;
+        left: 40px;
+        right: 40px;
+    }
+
+    /* .banner-area.technologia-header-template-one-selected.layout-two-selected .banner-content {
+        margin-top: 120px;
+    } */
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-top-area .container {
+        max-width: 1920px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .technologia-header-template-one.layout-two .main-navigation ul li a {
+        font-size: 16px;
+        padding: 35px 10px;
+    }
+
+    .technologia-header-template-one.layout-two .main-navigation ul li ul li a {
+        padding: 15px 10px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .header-top-area {
+        padding: 5px 30px;
+    }
+
+    .technologia-header-template-one.layout-two .header-mobile-number {
+        margin-right: 30px;
+    }
+
+    .technologia-header-template-one.layout-two .mobile-number-content,
+    .technologia-header-template-one.layout-two .mobile-number-content a {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .header-top-menu {
+        padding-right: 0;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-top-area {
+        text-align: center;
+        padding: 5px 0;
+    }
+
+    .header-top-menu-and-socials {
+        justify-content: center;
+    }
+
+    .technologia-header-template-one .main-menu-area {
+        padding: 10px 0;
+    }
+
+    .technologia-header-template-one .mobile-menu-trigger {
+        margin-left: 30px;
+    }
+
+    .technologia-header-template-one .mobile-menu-trigger span {
+        background-color: #fff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-top-area {
+        padding: 5px 0px;
+    }
+
+    .header-top-info ul li {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .header-top-menu {
+        padding-right: 0;
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .header-top-menu a {
+        margin-right: 5px;
+    }
+
+    .header-top-menu-and-socials {
+        display: block;
+    }
+
+    .header-top-menu:before {
+        display: none;
+    }
+
+    .technologia-header-template-one .header-cta-button,
+    .technologia-header-template-one .offcanvas-menu-trigger {
+        display: none;
+    }
+}
+
+/* Offcanvas Main Start */
+.offcanvas-menu-trigger {
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+    line-height: 4px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.offcanvas-menu-trigger span {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    line-height: 1;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.offcanvas-menu-trigger span:first-child {
+    width: 50%;
+}
+
+.offcanvas-menu-trigger span:last-child {
+    width: 80%;
+}
+
+.offcanvas-menu-trigger:hover span:first-child,
+.offcanvas-menu-trigger:hover span:last-child {
+    width: 100%;
+}
+
+.technologia-offcanvas-wrapper.offcanvas {
+    width: 500px;
+}
+
+.technologia-offcanvas-wrapper .offcanvas-header {
+    justify-content: end;
+    padding: 30px;
+}
+
+.technologia-offcanvas-wrapper .btn-close {
+    box-shadow: none !important;
+    position: relative;
+    background: none !important;
+    opacity: 1;
+    color: var(--technologia-primary-color-one);
+    padding: 5px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    transform: rotate(45deg);
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.technologia-offcanvas-wrapper .offcanvas-body {
+    padding: 50px;
+}
+
+.technologia-offcanvas-logo {
+    margin-bottom: 30px;
+}
+
+.technologia-offcanvas-desc {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.technologia-offcanvas-contact-info-wrapper ul li:first-child {
+    margin-bottom: 20px;
+}
+
+.technologia-offcanvas-contact-info-wrapper ul li,
+.technologia-offcanvas-contact-info-wrapper ul li p:last-child {
+    margin-bottom: 0;
+}
+
+.technologia-offcanvas-contact-info-wrapper a {
+    font-weight: 500;
+}
+
+.offcanvas-social {
+    margin-top: 20px;
+}
+
+.offcanvas-social ul li {
+    margin-right: 15px;
+}
+
+/* Offcanvas Main End */
+
+/*==============================
+Home Banner One
+==============================*/
+
+.home-banner-one-wrapper {
+    background-color: #10171e;
+    position: relative;
+    padding: 100px 0;
+}
+
+.home-banner-one-content-wrapper {
+    text-align: center;
+}
+
+.home-banner-one-content {
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+}
+
+.banner-one-title {
+    font-size: 130px;
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: -3px;
+}
+
+.home-banner-one-desc {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 35px 0 40px 0;
+}
+
+.technologia-button.home-banner-one-btn-one {
+    background: var(--technologia-primary-color-one);
+    border-color: var(--technologia-primary-color-one);
+    color: #ffffff;
+}
+
+.technologia-button.home-banner-one-btn-two {
+    border-color: #ffffff;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.home-banner-one-left-image,
+.home-banner-one-right-image {
+    position: absolute;
+    max-width: 350px;
+    z-index: 1;
+}
+
+.home-banner-one-left-image {
+    left: 0;
+    top: 100px;
+}
+
+.home-banner-one-right-image {
+    right: 0;
+    bottom: -115px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .home-banner-one-left-image,
+    .home-banner-one-right-image {
+        max-width: 210px;
+    }
+
+    .home-banner-one-content {
+        width: 70%;
+    }
+
+    .home-banner-one-right-image {
+        bottom: -80px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .home-banner-one-content {
+        width: 100%;
+    }
+
+    .banner-one-title {
+        font-size: 110px;
+    }
+
+    .home-banner-one-left-image,
+    .home-banner-one-right-image {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner-one-title {
+        font-size: 60px;
+        line-height: 1.1;
+    }
+
+    .home-banner-one-desc {
+        font-size: 18px;
+        margin: 30px 0 40px 0;
+    }
+}
+
+/*==============================
+Home Banner One
+===============================*/
+
+.counter-up-one-wrapper {
+    background-color: var(--technologia-primary-color-one);
+    padding: 40px 60px 35px 60px;
+    border-radius: 12px;
+}
+
+.technologia-counter-box-one {
+    margin-bottom: 30px;
+}
+
+.technologia-counter-box-one-counter {
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: -1.1px;
+    color: #ffffff;
+}
+
+.technologia-count-one-title {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid;
+    display: inline-block;
+    padding: 2px 16px;
+    border-radius: 8px;
+    margin-bottom: 35px;
+}
+
+.counter-one-desc {
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .counter-up-one-wrapper {
+        padding: 40px 30px 35px 30px;
+    }
+
+    .counter-one-desc {
+        font-size: 18px;
+    }
+}
+
+/*==============================
+Section Title One
+===============================*/
+.technologia-section-subtitle {
+    color: var(--technologia-primary-color-one);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    background-color: #f7f7f7;
+    display: inline-flex;
+    line-height: 1;
+    border-radius: 8px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.technologia-section-title {
+    font-size: 60px;
+    line-height: 120%;
+    letter-spacing: -1.1px;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-section-subtitle {
+        font-size: 22px;
+        padding: 10px 22px;
+    }
+
+    .technologia-section-title {
+        font-size: 40px;
+    }
+}
+
+/*==============================
+Team & Rating
+===============================*/
+.technologia-team-rating-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-image-and-title {
+    display: flex;
+    align-items: center;
+}
+
+.xcecy-team-img {
+    max-width: 100px;
+}
+
+.technologia-team-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.technologia-team-image-desc {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.rating-image-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-team-rating-wrapper {
+        display: block;
+    }
+
+    .xcecy-team-rating-right {
+        margin-top: 20px;
+    }
+}
+
+/*==============================
+Marquee Text
+===============================*/
+.marquee-item-wrapper {
+    padding: 20px 0;
+    background-color: var(--technologia-primary-color-one);
+}
+
+.marquee-item-wrapper .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+}
+
+.marquee-item-wrapper .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.32px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.technologia-marquee-icon {
+    display: inline-block;
+    margin: 0 45px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.technologia-marquee-icon,
+.technologia-marquee-icon svg {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+}
+
+/*==============================
+Service Box One
+===============================*/
+
+.service-one-item {
+    background-color: transparent;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    position: relative;
+}
+.stoke-text-2 {
+    background: linear-gradient(90deg, #cce3ff 0%, #ffa899 100%);
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px transparent;
+    color: #141414;
+}
+/* .border-two-enable .service-one-item:before {
+    content: '';
+    height: 10px;
+    position: absolute;
+    border: 1px solid #ebebeb;
+    border-top: none;
+    bottom: -10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 0 0 8px 8px;
+    transition: .3s;
+} */
+
+.service-one-icon {
+    /* height: 50px;
+    width: 50px; */
+    text-align: left;
+    font-size: 50px;
+    line-height: 50px;
+    /* margin-bottom: 30px; */
+    transition: 0.3s;
+    color: var(--technologia-primary-color-one);
+}
+
+.service-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: clamp(15px, 0.938vw, 18px) clamp(12px, 1.667vw, 32px);
+    border: 2px solid;
+    border-image-slice: 2;
+    border-width: 2px;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(14px, 0.833vw, 18px);
+    color: #ffffff;
+    background-color: transparent;
+    line-height: 1;
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.5s ease-in-out;
+}
+
+.service-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 1, 2, 0.99) 0%, #5f1305 100%);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.service-btn:hover::before {
+    opacity: 1;
+}
+
+.service-btn:hover {
+    color: #ffffff;
+}
+
+
+.service-one-image img {
+    width: 100%;
+}
+
+.service-one-icon svg {
+    margin-top: -10px;
+    transition: 0.3s;
+}
+
+.technologia-service-one-desc {
+    transition: 0.3s;
+}
+
+.technologia-service-one-btn {
+    margin-top: 0px;
+}
+
+.technologia-service-one-btn a {
+    background-color: white;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+}
+
+.technologia-service-one-btn:hover a {
+    transform: rotate(45deg);
+}
+
+.service-one-item:hover .service-one-icon,
+.service-one-item:hover .technologia-service-one-title,
+.service-one-item:hover .technologia-service-one-desc,
+.service-one-item:hover .technologia-service-one-btn a {
+    color: #ffffff;
+}
+
+.service-one-item:hover .service-one-icon svg path {
+    fill: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+    .service-one-item {
+    }
+}
+
+/*==============================
+Video Popup
+===============================*/
+.technologia-video-image {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5fe;
+}
+
+.video-caption-wrapper {
+    background: var(--technologia-primary-color-two);
+    position: absolute;
+    bottom: -3px;
+    left: 6px;
+    width: 200px;
+    max-width: 414px;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    line-height: 145%;
+    color: #45474f;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .technologia-video-image {
+        height: 400px;
+    }
+
+    .video-caption-wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-video-image {
+        height: 320px;
+    }
+}
+
+/*==============================
+Brand Image Slider
+===============================*/
+
+.technologia-brand-item {
+    text-align: center;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.technologia-brand-item.slick-slide img {
+    display: inline-block;
+}
+
+.technologia-grayscale-enable .technologia-brand-item.slick-slide img {
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+.technologia-grayscale-enable .technologia-brand-item.slick-slide img:hover {
+    filter: grayscale(0);
+}
+
+@media only screen and (max-width: 1024px) {
+    .technologia-brand-img-wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .technologia-brand-img-wrapper {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-brand-img-wrapper {
+        padding: 0;
+    }
+
+    .technologia-brand-item {
+        height: 130px;
+    }
+}
+
+/*==============================
+Testimonial One
+===============================*/
+.technologia-testimonial-two-wrapper .technologia-testimonial-one-item {
+    position: relative;
+    padding: clamp(30px, 4vw, 50px) clamp(20px, 3vw, 40px);
+    border-radius: 16px;
+}
+
+.technologia-testimonial-one-item {
+    position: relative;
+    padding: 40px 32px;
+    border: 2px solid;
+    border-image-slice: 2;
+    border-width: 2px;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%);
+}
+.testimonial-one-person {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.testimonial-one-text {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.technologia-testimonial-one-item .person-img {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.technologia-testimonial-one-item .person-img-two {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonial-one-content {
+    display: inline-flex;
+    align-items: center;
+}
+
+.testimonial-one-content-2 {
+    gap: 10px;
+}
+
+.testimonial-one-person-name {
+    font-family: "Jost", sans-serif;
+    font-size: clamp(16px, 1.563vw, 30px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+}
+.testimonial-designation {
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.testimonial-rating i {
+    color: #a2cbfcfc;
+    font-size: 16px;
+}
+.testimonial-one-icon {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+.testimonial-one-icon svg path {
+    fill: var(--technologia-primary-color-one);
+}
+
+.technologia-testimonial-one-wrapper .slick-dots {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 65px;
+}
+
+.technologia-testimonial-one-wrapper .slick-dots button {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    height: clamp(10px, 1.5vw, 16px);
+    padding: 0;
+    text-indent: -10000px;
+    width: clamp(10px, 1.5vw, 16px);
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+}
+
+.technologia-testimonial-one-wrapper .slick-dots button:before {
+    position: absolute;
+    content: "";
+    height: clamp(10px, 1.5vw, 16px);
+    width: clamp(10px, 1.5vw, 16px);
+    border-radius: 50%;
+    background-color: #71737f;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.technologia-testimonial-one-wrapper .slick-dots button:hover,
+.technologia-testimonial-one-wrapper .slick-dots .slick-active button {
+    width: clamp(36px, 5vw, 56px);
+    height: clamp(10px, 1.5vw, 16px);
+    background-color: var(--technologia-primary-color-one);
+    border-radius: clamp(6px, 1vw, 12px);
+}
+
+@media only screen and (max-width: 991px) {
+    .technologia-testimonial-one-item {
+        padding: 25px;
+    }
+
+    .testimonial-one-text {
+        font-size: 22px;
+    }
+
+    .testimonial-one-icon {
+        right: 25px;
+        bottom: 25px;
+    }
+
+    .testimonial-one-content {
+        margin-top: 20px;
+    }
+}
+
+/*==============================
+Pricing Table One
+===============================*/
+
+.technologia-pricing-one-plan-switcher-wrapper {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.technologia-pricing-one-plan-switcher {
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 50px;
+}
+
+.technologia-pricing-one-plan-switcher ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.technologia-pricing-one-plan-switcher ul li {
+    line-height: 1;
+    margin: 0;
+    font-weight: 500;
+}
+
+.technologia-pricing-one-plan-switcher ul li.technologia-billing-switcher {
+    height: 30px;
+    width: 70px;
+    background-color: var(--technologia-primary-color-one);
+    border-radius: 50px;
+    margin: 0 15px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.technologia-pricing-one-plan-switcher ul li.technologia-billing-switcher span {
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -10px;
+    left: 5px;
+    transition: 0.3s;
+}
+
+.technologia-pricing-one-plan-switcher ul li.technologia-billing-switcher.yearly span {
+    left: 45px;
+}
+
+.technologia-pricing-one-table-wrapper {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    display: none;
+}
+
+.technologia-pricing-one-table-wrapper.show {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+
+.pricing-one-price-time-duration {
+    border-radius: 15px;
+    padding: clamp(22px, 1.25vw, 26px) clamp(24px, 1.563vw, 32px);
+    background: #f2f2f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pricing-one-table-content {
+    background-color: #f1f4f8;
+    padding: clamp(48px, 3.125vw, 64px) clamp(32px, 2.083vw, 44px);
+    /* margin-bottom: 30px; */
+    border-radius: 20px;
+    border: 1px solid #e1eae1;
+    position: relative;
+}
+
+.pricing-one-table-title {
+    font-size: clamp(20px, 1.25vw, 26px);
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    color: var(--technologia-primary-color-one);
+}
+
+.pricing-one-price {
+    color: #10171e;
+    font-size: clamp(34px, 2.5vw, 52px);
+    letter-spacing: -1.95px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.pricing-one-duration {
+    letter-spacing: -0.36px;
+    font-size: clamp(16px, 0.938vw, 20px);
+    color: #45474f !important;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.mb-40 {
+    margin-bottom: clamp(34px, 2.083vw, 44px);
+}
+
+.pricing-one-table-desc {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.technologia-button.pricing-one-btn-one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: var(--technologia-primary-color-one);
+}
+
+.pricing-one-top-right-text {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    border: 1px solid #10171e;
+    color: #10171e;
+    font-size: 14px;
+    line-height: 1;
+    padding: 5px 12px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.pricing-three-features-list {
+    margin: clamp(34px, 2.083vw, 44px) 0;
+}
+
+.pricing-one-table-content:hover .icon-svg-table path {
+    fill: white;
+}
+
+.pricing-three-features-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-three-features-list li {
+    position: relative;
+    margin-top: 6px;
+    font-weight: 500;
+    color: #45474f;
+    font-size: clamp(14px, 0.833vw, 18px);
+}
+
+.pricing-three-features-list li:before {
+    content: "\f058";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 21px;
+    margin-right: 13px;
+    color: var(--technologia-primary-color-one);
+}
+
+/* Icon styles */
+.technologia-button .btn-icon {
+    width: 19px;
+    height: 19px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.technologia-button:hover {
+    background-color: #333;
+    /* Darker shade on hover */
+}
+
+.technologia-button:hover .btn-icon {
+    transform: translateX(4px);
+    /* Move icon right */
+    stroke: var(--technologia-primary-color-one);
+    /* Change icon color */
+}
+
+/* For rotation effect instead of slide */
+.technologia-button:hover .btn-icon.rotate {
+    transform: rotate(-45deg);
+}
+
+/* For bounce animation */
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(4px);
+    }
+}
+
+.technologia-button:hover .btn-icon.bounce {
+    animation: bounce 0.6s infinite;
+}
+
+.pricing-one-table-content,
+.pricing-one-table-title,
+.pricing-one-top-right-text,
+.pricing-one-price,
+.pricing-one-duration,
+.pricing-one-table-desc,
+.pricing-three-features-list li,
+.pricing-three-features-list li:before {
+    transition: 0.3s;
+}
+
+.pricing-one-table-content:hover {
+    background-color: var(--technologia-primary-color-one);
+}
+
+.pricing-one-table-content:hover .pricing-one-table-title,
+.pricing-one-table-content:hover .pricing-one-top-right-text,
+.pricing-one-table-content:hover .pricing-one-price,
+.pricing-one-table-content:hover .pricing-one-duration,
+.pricing-one-table-content:hover .pricing-one-table-desc,
+.pricing-one-table-content:hover .pricing-three-features-list li,
+.pricing-one-table-content:hover .pricing-three-features-list li:before {
+    color: #ffffff;
+}
+
+.pricing-one-table-content:hover .pricing-one-top-right-text {
+    border-color: #ffffff;
+}
+
+.pricing-one-table-content:hover .technologia-button.pricing-one-btn-one {
+    background-color: #ffffff;
+    color: var(--technologia-primary-color-one);
+}
+
+.pricing-one-table-content:hover .technologia-button.pricing-one-btn-one svg path {
+    fill: var(--technologia-primary-color-one);
+}
+
+.technologia-button.pricing-one-btn-one:hover svg {
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+@media only screen and (max-width: 1024px) {
+    .pricing-one-table-content {
+        padding: 40px 30px;
+        margin-bottom: 24px;
+    }
+}
+
+/*==============================
+Recent Post One
+===============================*/
+.recent-post-one-item {
+    margin-bottom: 30px;
+}
+
+.post-thumb-url {
+    display: block;
+}
+
+.recent-post-one-small-item .post-thumb-url {
+    margin-right: 25px;
+}
+
+.recent-post-one-item .technologia-post-thumbnail {
+    height: 404px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.recent-post-one-item .technologia-post-meta {
+    margin-top: 30px;
+}
+
+.technologia-recent-post-title .post-title {
+    font-size: 32px;
+    width: calc(100%);
+    background-image: linear-gradient(transparent calc(100% - 2px), #10171e 10px);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 1s;
+    display: inline;
+}
+
+.recent-post-one-item:hover .technologia-recent-post-title .post-title {
+    background-size: 100% 100%;
+}
+
+.technologia-recent-post-button {
+    margin-top: 30px;
+}
+
+.technologia-recent-post-button .technologia-button {
+    padding: 15px 34px 13px 35px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.recent-post-one-item.recent-post-one-small-item {
+    display: flex;
+    align-items: start;
+}
+
+.recent-post-one-item.recent-post-one-small-item .technologia-post-thumbnail {
+    height: 190px;
+    width: 190px;
+}
+
+.recent-post-one-item.recent-post-one-small-item .technologia-post-meta {
+    margin-top: 0;
+}
+
+.recent-post-one-small-item .technologia-recent-post-title .post-title {
+    font-size: 24px;
+    line-height: 145%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .recent-post-one-item.recent-post-one-big-item {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .recent-post-one-item .technologia-post-thumbnail {
+        height: 250px;
+    }
+
+    .recent-post-one-item.recent-post-one-small-item {
+        display: block;
+    }
+
+    .recent-post-one-small-item .post-thumb-url {
+        margin-right: 0;
+    }
+
+    .recent-post-one-item.recent-post-one-small-item .technologia-post-meta {
+        margin-top: 30px;
+    }
+
+    .recent-post-one-item.recent-post-one-small-item .technologia-post-thumbnail {
+        height: 250px;
+        width: 100%;
+    }
+
+    .technologia-recent-post-button {
+        display: none;
+    }
+
+    .recent-post-one-item.recent-post-one-big-item {
+        margin-bottom: 30px;
+    }
+
+    .technologia-recent-post-title .post-title,
+    .recent-post-one-small-item .technologia-recent-post-title .post-title {
+        font-size: 28px;
+        line-height: 140%;
+    }
+}
+
+/*==============================
+CTA One
+===============================*/
+
+.cta-one-wrapper {
+    background: var(--technologia-primary-color-one);
+    padding: 60px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-one-content {
+    display: inline-block;
+    position: relative;
+}
+
+.cta-one-title {
+    font-size: 55px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cta-one-desc {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px 0 40px;
+}
+
+.cta-one-button-wrapper .technologia-button,
+.cta-one-button-wrapper .technologia-button:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #101010;
+}
+
+.cta-one-image {
+    position: absolute;
+    width: 150px;
+}
+
+.cta-one-img-one {
+    left: 0;
+    top: 0;
+}
+
+.cta-one-img-two {
+    right: 0;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .cta-one-wrapper {
+        padding: 60px 25px;
+    }
+
+    .cta-one-image {
+        display: none;
+    }
+
+    .cta-one-title {
+        font-size: 38px;
+        line-height: 128%;
+    }
+}
+
+/*==============================
+Quick Links
+===============================*/
+.technologia-elementor-widget.widget.widget_technologia_nav_menu ul li {
+    border: none;
+    padding: 5px 0;
+}
+
+.technologia-elementor-widget.widget.widget_technologia_nav_menu ul li a {
+    border: none;
+    padding: 0;
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(14px, 0.833vw, 18px);
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*==============================
+About Company
+===============================*/
+.widget_technologia_about_company_widget .widget-social-icons li a:hover {
+    color: var(--technologia-primary-color-one);
+}
+
+/*==============================
+Location & Contact
+===============================*/
+.technologia_el_contact_info_widget.widget.technologia_contact_info_widget ul li {
+    padding: 0;
+}
+
+.technologia_el_contact_info_widget.widget.technologia_contact_info_widget ul li a {
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+}
+
+.technologia_el_contact_info_widget .widget-title-two {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*==============================
+Subscribe Form
+===============================*/
+.technologia-subscribe-form .mc4wp-form-fields {
+    position: relative;
+}
+
+.technologia-subscribe-form input[type="email"] {
+    padding: 14.5px 16px;
+    border: 2px solid;
+    border-image-slice: 2;
+    border-width: 2px;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%);
+    background: transparent;
+    font-size: 18px;
+    border-radius: 0;
+    font-weight: 500;
+    color: #fff !important;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 32px;
+}
+
+.technologia-subscribe-form input[type="email"]:focus {
+    background-color: transparent !important;
+}
+
+.technologia-subscribe-button {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    height: calc(100% - 20px);
+}
+
+.technologia-subscribe-button input[type="submit"] {
+    border: 2px solid;
+    border-image-slice: 2;
+    border-width: 2px;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%);
+    font-size: clamp(14px, 0.833vw, 18px);
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 10px;
+     padding: 10px clamp(20px,1.667vw,32px) !important;
+}
+.technologia-subscribe-button input[type="submit"]:hover {
+    border: 2px solid;
+    border-image-slice: 2;
+    border-width: 2px;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%);
+    font-size: clamp(14px, 0.833vw, 18px);
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+  background: linear-gradient(90deg, rgba(0, 1, 2, 0.99) 0%, #5f1305 100%) !important;
+    color: #fff;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 10px;
+     padding: 10px clamp(20px,1.667vw,32px) !important;
+
+}
+.footer_subscribe_widget .social-media-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer_subscribe_widget .social-media-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.footer_subscribe_widget .widget-social-icons li {
+    border: none;
+}
+
+.footer_subscribe_widget .widget-social-icons li a {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.technologia-subscribe-form .mc4wp-response {
+    margin-top: 5px;
+}
+
+.technologia-subscribe-form .mc4wp-response,
+.mc4wp-response a {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.technologia-subscribe-form .mc4wp-response a:hover {
+    color: #ffffff;
+}
+
+.technologia-subscribe-form .mc4wp-response p {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .technologia-subscribe-form input[type="email"] {
+        padding-right: 165px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .technologia-subscribe-form input[type="email"] {
+        padding-right: 160px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-subscribe-form input[type="email"] {
+        padding-right: 145px;
+    }
+}
+
+/*==============================
+Home Banner Two
+===============================*/
+.home-banner-two-wrapper {
+    padding: 250px 0 115px;
+}
+
+.banner-two-title {
+    font-size: 70px;
+    color: #ffffff;
+    line-height: 125%;
+    letter-spacing: -1.95px;
+}
+
+.banner-two-title span {
+    background: var(--technologia-primary-color-two);
+    display: inline-block;
+    color: #10171e;
+    border-radius: 10px;
+    line-height: 1;
+    padding: 0 5px;
+}
+
+.home-banner-two-desc {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 166%;
+    border-top: 1px solid;
+    margin-top: 50px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.home-banner-two-right-image {
+    max-width: 550px;
+    display: inline-block;
+}
+
+.home-banner-two-right-content {
+    text-align: right;
+}
+
+.technologia-button.home-banner-two-btn-one {
+    background: var(--technologia-primary-color-two);
+    border-color: var(--technologia-primary-color-two);
+    margin-right: 10px;
+}
+
+.technologia-button.home-banner-two-btn-one:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.technologia-button.home-banner-two-btn-two {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.technologia-button.home-banner-two-btn-two:hover {
+    background: var(--technologia-primary-color-two);
+    border-color: var(--technologia-primary-color-two);
+    color: #10171e;
+}
+
+@media only screen and (max-width: 1366px) {
+    .banner-two-title {
+        font-size: 65px;
+    }
+
+    .home-banner-two-wrapper {
+        padding: 130px 0 115px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .home-banner-two-right-image {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1560px) {
+    .technologia-header-template-one,
+    .technologia-header-template-one.layout-two {
+        margin: auto;
+    }
+
+    .home-banner-three-wrapper {
+        max-width: 2400px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-header-template-one.layout-two .header-mobile-number {
+        display: none;
+    }
+
+    .banner-two-title {
+        font-size: 38px;
+    }
+
+    .home-banner-two-wrapper {
+        padding: 115px 0 115px;
+    }
+}
+
+/*==============================
+Counter Section One
+===============================*/
+.counter-up-section-one-wrapper {
+    position: relative;
+    padding: 100px 0;
+}
+
+.counter-up-section-one-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 71%;
+    border-radius: 0 12px 12px 0;
+}
+
+.count-section-one-content {
+    background-color: var(--technologia-primary-color-two);
+    border-radius: 12px;
+    position: relative;
+}
+
+.technologia-counter-section-box {
+    padding: 20px 50px 40px 50px;
+}
+
+.counter-up-section-one-box-image {
+    position: absolute;
+    height: calc(100% + 100px);
+    width: 320px;
+    right: -140px;
+    top: -50px;
+    z-index: -1;
+}
+
+.count-section-one-content .row .p-0:first-child {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #b7c73d;
+}
+
+.count-section-one-content .row .p-0:nth-child(2) {
+    border-bottom: 1px solid;
+    border-color: #b7c73d;
+}
+
+.count-section-one-content .row .p-0:nth-child(3) {
+    border-right: 1px solid;
+    border-color: #b7c73d;
+}
+
+.technologia-counter-section-one-counter {
+    font-size: 55px;
+    font-weight: 700;
+    color: #10171e;
+}
+
+.technologia-counter-section-box .technologia-count-box-title {
+    background-color: #10171e;
+    color: #ffffff;
+    font-weight: 500;
+    display: inline-block;
+    padding: 2px 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.technologia-counter-section-box .counter-box-one-desc {
+    color: #10171e;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+    .counter-up-section-one-bg,
+    .counter-up-section-one-box-image {
+        display: none;
+    }
+
+    .count-section-one-content .row .p-0 {
+        border: none !important;
+    }
+
+    .technologia-counter-section-box {
+        padding: 29px 25px 40px 25px;
+        border-bottom: 1px solid #b7c73d;
+    }
+
+    .count-section-one-content .row .p-0:last-child .technologia-counter-section-box {
+        border-bottom: none;
+    }
+
+    .counter-up-section-one-wrapper {
+        padding: 0;
+    }
+}
+
+/*==============================
+Counter Section One
+===============================*/
+
+.technologia-working-process-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.technologia-working-process-box-content {
+    background-color: #f0f5da;
+    border-radius: 15px;
+    border: 1px solid rgba(16, 16, 16, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.process-box-title {
+    font-size: 22px;
+}
+
+.technologia-working-process-box-image {
+    height: 205px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.technologia-working-process-box-image {
+    height: 205px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+.technologia-working-process-wrapper .row [class*="col-"]:nth-child(odd) .technologia-working-process-box .top-image,
+.technologia-working-process-wrapper
+    .row
+    [class*="col-"]:nth-child(even)
+    .technologia-working-process-box
+    .bottom-image {
+    display: none;
+}
+
+.process-box-subtitle {
+    background-color: #ffffff;
+    display: inline-block;
+    line-height: 1;
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #10171e;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.technologia-working-process-wrapper
+    .row
+    [class*="col-"]:nth-child(even)
+    .technologia-working-process-box
+    .technologia-working-process-box-content {
+    padding-top: 130px;
+    margin-top: -100px;
+}
+
+.technologia-working-process-wrapper
+    .row
+    [class*="col-"]:nth-child(odd)
+    .technologia-working-process-box
+    .technologia-working-process-box-content {
+    padding-bottom: 130px;
+    margin-bottom: -100px;
+}
+
+.technologia-working-process-box:hover .process-box-title,
+.technologia-working-process-box:hover .process-box-desc {
+    color: #ffffff;
+}
+
+.technologia-working-process-box:hover .technologia-working-process-box-content {
+    background-color: #000000;
+    box-shadow: 10px 4px 30px 0px rgba(56, 56, 56, 0.5);
+}
+
+.technologia-working-process-box:hover .process-box-subtitle {
+    background-color: var(--technologia-primary-color-two);
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-working-process-wrapper
+        .row
+        [class*="col-"]:nth-child(odd)
+        .technologia-working-process-box
+        .top-image {
+        display: block;
+    }
+
+    .technologia-working-process-wrapper
+        .row
+        [class*="col-"]:nth-child(odd)
+        .technologia-working-process-box
+        .bottom-image {
+        display: none;
+    }
+
+    .technologia-working-process-wrapper
+        .row
+        [class*="col-"]:nth-child(odd)
+        .technologia-working-process-box
+        .technologia-working-process-box-content {
+        padding-bottom: 30px;
+        margin-bottom: 0;
+        padding-top: 130px;
+        margin-top: -100px;
+    }
+}
+
+/*==============================
+Project Slider One
+===============================*/
+.technologia-project-slider-one-wrapper {
+    margin-right: -50%;
+}
+
+.technologia-project-slider-one-item {
+    position: relative;
+}
+
+.technologia-project-slider-left {
+    position: absolute;
+    background-color: var(--technologia-primary-color-two);
+    max-width: 410px;
+    padding: 40px;
+    border-radius: 10px;
+    top: 50px;
+    bottom: 50px;
+    transition: 0.3s;
+}
+
+.project-slider-one-image {
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    width: 65%;
+    display: inline-block;
+}
+
+.technologia-project-slider-right {
+    text-align: right;
+}
+
+.project-slider-one-number {
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    border: 1px solid #101010;
+    text-align: center;
+    border-radius: 50%;
+    color: #101010;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.project-slider-one-title {
+    font-size: 30px;
+    line-height: 140%;
+}
+
+.project-slider-desc-and-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 40px 40px;
+}
+
+.project-slider-desc-and-btn .project-details-button {
+    margin-top: 30px;
+}
+
+.project-slider-desc-and-btn .project-details-button .technologia-button:hover {
+    background-color: transparent;
+    color: #101010;
+    border-color: #101010;
+}
+
+.project-slider-one-desc {
+    color: #101010;
+}
+
+.technologia-project-slider-arrow .slick-arrow {
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    line-height: 55px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.technologia-project-slider-arrow .slick-arrow:hover {
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.technologia-project-slider-arrow .slick-arrow svg path {
+    fill: #ffffff;
+    transition: 0.3s;
+}
+
+.technologia-project-slider-arrow .slick-arrow:hover svg path {
+    fill: #000000;
+}
+
+.technologia-project-next-arrow.slick-arrow {
+    transform: rotate(180deg);
+}
+
+.technologia-project-slider-arrow {
+    text-align: right;
+    padding-right: 33.5%;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1480px) {
+    .technologia-project-slider-one-wrapper {
+        margin-right: -40%;
+    }
+
+    .technologia-project-slider-arrow {
+        padding-right: 28.5%;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .technologia-project-slider-one-wrapper {
+        margin-right: -30%;
+    }
+
+    .technologia-project-slider-arrow {
+        padding-right: 23.5%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .technologia-project-slider-one-wrapper {
+        margin-right: 0;
+    }
+
+    .technologia-project-slider-arrow {
+        padding-right: 0;
+    }
+
+    .project-slider-desc-and-btn {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-project-slider-left {
+        position: relative;
+        max-width: 100%;
+        padding: 40px 30px;
+        top: auto;
+        bottom: auto;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .project-slider-one-image {
+        height: 350px;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .technologia-project-slider-right {
+        margin-top: -10px;
+    }
+
+    .technologia-project-slider-arrow {
+        display: none;
+    }
+}
+
+/*====================================
+# Brand Image Gallery CSS
+====================================*/
+.technologia-brand-image-gallery-wrapper {
+    border: 0.5px solid #ebebeb;
+    padding: 0 15px;
+}
+
+.technologia-brand-image-gallery-wrapper .technologia-brand-item {
+    text-align: center;
+    height: 135px;
+    border: 0.5px solid #ebebeb;
+    padding: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-brand-image-gallery-wrapper {
+        padding: 0 10px;
+    }
+
+    .technologia-brand-image-gallery-wrapper .technologia-brand-item {
+        height: 120px;
+        padding: 20px;
+    }
+}
+
+/*====================================
+# Testimonial CSS
+====================================*/
+.technologia-testimonial-two-wrapper .technologia-testimonial-one-item {
+    margin-bottom: 30px;
+}
+
+.technologia-testimonial-two-wrapper .testimonial-one-text {
+    font-family: "Inter", sans-serif;
+    font-size: clamp(14px, 1vw, 16px);
+    font-style: normal;
+    font-weight: 400;
+    margin: 30px 0;
+    line-height: clamp(24px, 1.8vw, 28px);
+    color: #45474f;
+}
+
+.technologia-testimonial-two-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+/*====================================
+# Recent Post Two CSS
+====================================*/
+.technologia-single-post-two-item .technologia-post-thumbnail {
+    height: clamp(240px, 16.667vw, 340px);
+}
+
+.technologia-single-post-two-item article {
+    margin-bottom: 30px;
+}
+
+.technologia-single-post-two-item:hover article {
+    /* background-color: #F0F5DA; */
+}
+
+.technologia-recent-post-two-content {
+}
+
+.technologia-recent-post-two-content .td-post-excerpt p {
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.blog-btn {
+    border: 2px solid;
+    border-image-slice: 2;
+    border-width: 2px;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%);
+    font-size: clamp(14px, 0.833vw, 18px);
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: clamp(8px, 0.625vw, 12px) clamp(12px, 1.667vw, 32px);
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    width: max-content;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 0.5s ease-in-out;
+}
+
+.blog-btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 1, 2, 0.99) 0%, #5f1305 100%);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.blog-btn:hover::before {
+    opacity: 1;
+}
+
+.blog-btn:hover {
+    color: #fff;
+}
+
+.blog-btn svg {
+    max-width: 20px !important;
+    height: 20px !important;
+}
+.technologia-recent-post-content {
+    padding: clamp(10px, 1.25vw, 24px);
+    background-color: #1e1f20;
+}
+@media (max-width: 575px) {
+ .technologia-recent-post-content {
+    padding: clamp(10px, 1.25vw, 24px);
+    background-color: #1e1f20;
+    padding-bottom: 24px;
+}
+}
+.technologia-recent-post-two-title .post-title {
+    font-size: clamp(18px, 1.406vw, 27px);
+    font-weight: 600;
+    line-height: 32.4px;
+    font-family: "Saira", sans-serif;
+    margin-bottom: clamp(14px, 1.042vw, 20px);
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.technologia-post-meta {
+    margin-bottom: clamp(14px, 1.042vw, 20px);
+}
+.technologia-recent-post-two-title {
+    margin-bottom: clamp(14px, 1.042vw, 20px);
+}
+.technologia-recent-post-two-title .post-title:hover {
+    color: var(--technologia-primary-color-one);
+    /* change to any desired color */
+}
+
+.technologia-header-template-one,
+.technologia-header-template-one.layout-two {
+    background-color: #ffffff;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.technologia-recent-post-two-content .post-meta li i,
+.technologia-recent-post-two-content .post-meta li a:hover {
+    color: #101010;
+}
+
+.recent-post-two-button .technologia-button {
+    padding: 0;
+    color: #71737f;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    border: 0;
+    font-style: normal;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.recent-post-two-button {
+    /* margin-top: 35px; */
+}
+
+.recent-post-two-button .technologia-button:hover {
+    background-color: transparent;
+    color: #101010;
+}
+
+/*====================================
+# Contact Form 7
+====================================*/
+.technologia-form-title {
+    font-size: 32px;
+    margin-bottom: clamp(16px, 1.25vw, 30px);
+}
+
+.technologia-contact-form7-wrapper {
+    background-color: transparent !important;
+    padding: 0px !important;
+    border-radius: 0px !important;
+}
+
+.technologia-contact-form-container .technologia-form-control-wrapper input,
+.technologia-contact-form-container .technologia-form-control-wrapper textarea {
+    border: 1px solid #e7e7e7;
+    margin-bottom: 0;
+}
+
+.technologia-contact-form-container .technologia-form-control-wrapper input:focus,
+.technologia-contact-form-container .technologia-form-control-wrapper textarea:focus {
+    border-color: #ebebeb;
+    background-color: #f0f5da;
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-contact-form7-wrapper {
+        padding: 35px 25px 35px 25px;
+    }
+}
+
+/*====================================
+# Contact Form 7
+====================================*/
+.technologia-contact-form7-two-wrapper .technologia-contact-form-container .technologia-form-control-wrapper input,
+.technologia-contact-form7-two-wrapper .technologia-contact-form-container .technologia-form-control-wrapper textarea {
+    border: none;
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 0;
+    padding-left: 0;
+    color: #101010;
+}
+
+.technologia-contact-form7-two-wrapper
+    .technologia-contact-form-container
+    .technologia-form-control-wrapper
+    input:focus,
+.technologia-contact-form7-two-wrapper
+    .technologia-contact-form-container
+    .technologia-form-control-wrapper
+    textarea:focus {
+    background-color: transparent;
+    border-color: #101010;
+}
+
+.technologia-contact-form7-two-wrapper .technologia-contact-form-container button[type="submit"] {
+    background-color: var(--technologia-primary-color-two);
+    border-color: var(--technologia-primary-color-two);
+}
+
+.technologia-contact-form7-two-wrapper .technologia-contact-form-container button[type="submit"]:hover {
+    color: #101010;
+}
+
+/*====================================
+# Home Banner Three
+====================================*/
+
+.home-banner-three-wrapper {
+    padding: 200px 0 115px;
+}
+
+.home-banner-three-content {
+    text-align: center;
+}
+
+.banner-three-subtitle {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+    background-color: var(--technologia-primary-color-three);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 30px;
+    margin-bottom: 15px;
+}
+
+.banner-three-title {
+    color: #10171e;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: -1.95px;
+}
+
+.home-banner-three-desc {
+    padding: 0 8%;
+    margin: 25px 0 40px 0;
+}
+
+.technologia-banner-three-form {
+    position: relative;
+}
+
+.technologia-banner-three-form .technologia-form-control-wrapper input,
+.technologia-banner-three-form p,
+.technologia-banner-three-form .technologia-form-control-wrapper p {
+    margin-bottom: 0;
+}
+
+.technologia-banner-three-form button.technologia-button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 16px 20px;
+    color: #ffffff;
+    background: #101010;
+    border-radius: 5px;
+}
+
+.technologia-banner-three-form button.technologia-button:hover {
+    background-color: var(--technologia-primary-color-three);
+    border-color: var(--technologia-primary-color-three);
+}
+
+.technologia-banner-three-contact-form-container {
+    padding: 0 13%;
+}
+
+.technologia-banner-three-form .technologia-form-control-wrapper input {
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 10px 4px 30px 0 rgba(46, 182, 125, 0.3);
+    border: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner-three-title {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home-banner-three-wrapper.technologia-cover-bg {
+        padding: 150px 0 100px;
+    }
+
+    .banner-three-title {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .home-banner-three-desc,
+    .technologia-banner-three-contact-form-container {
+        padding: 0;
+    }
+
+    .technologia-banner-three-form button.technologia-button {
+        padding: 16px 10px;
+    }
+}
+
+/*====================================
+# Features Box
+====================================*/
+
+.features-one-item {
+    background-color: #f7fafa;
+    padding: 40px;
+    border: 1px solid rgba(38, 39, 43, 0.07);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.technologia-features-one-title {
+    font-size: 26px;
+    line-height: 140%;
+}
+
+.technologia-features-one-img {
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 1px 8px 0px rgba(110, 110, 110, 0.1);
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.technologia-features-one-desc {
+    color: #666666;
+}
+
+@media only screen and (max-width: 1024px) {
+    .features-one-item {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-features-one-title {
+        font-size: 24px;
+    }
+}
+
+/*====================================
+# Counter Up Two
+====================================*/
+.technologia-counter-box-two {
+    background-color: var(--technologia-primary-color-three);
+    padding: 30px;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.count-box-two-icon {
+    background-color: #ffffff;
+    height: 85px;
+    width: 85px;
+    text-align: center;
+    line-height: 85px;
+    font-size: 50px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 8px 8px 8px 45px;
+    color: var(--technologia-primary-color-three);
+}
+
+.count-box-two-icon svg {
+    fill: var(--technologia-primary-color-three);
+}
+
+.technologia-counter-box-two-counter {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: -1.1px;
+}
+
+.count-two-border {
+    width: 150px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 15px 0 20px;
+}
+
+.technologia-count-two-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*==============================
+Accordion One
+===============================*/
+
+.technologia-accordion-wrapper .accordion-item {
+    margin-bottom: 20px;
+    border: 1px solid #d5d8dcb3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.technologia-accordion-wrapper .accordion-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.technologia-accordion-wrapper .accordion-button:not(.collapsed) {
+    background-color: #f7fafa;
+}
+
+.technologia-accordion-wrapper button.technologia-accordion-title {
+    font-size: 20px;
+    padding: 15px 20px 10px 20px;
+    position: relative;
+    box-shadow: none;
+    background-color: #f7fafa;
+    color: #010101;
+    font-weight: 500;
+}
+
+.technologia-accordion-wrapper .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.technologia-accordion-wrapper .accordion-item:last-of-type .accordion-button.collapsed,
+.technologia-accordion-wrapper .accordion-item:last-of-type .accordion-collapse,
+.technologia-accordion-wrapper .accordion-item:last-of-type {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.technologia-accordion-wrapper .accordion-button::after,
+.technologia-accordion-wrapper .accordion-button:not(.collapsed)::after {
+    display: none;
+}
+
+.technologia-accordion-wrapper .accordion-button.collapsed .open-icon {
+    display: none;
+}
+
+.technologia-accordion-wrapper .accordion-button .open-icon {
+    color: #101010;
+}
+
+.technologia-accordion-wrapper .accordion-button:not(.collapsed) .close-icon {
+    display: none;
+}
+
+.technologia-accordion-wrapper .technologia-accordion-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    font-size: 18px;
+    transform: translateY(-50%);
+    line-height: 45px;
+    border: 1px solid #dee0e3;
+    border-radius: 50%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.technologia-accordion-wrapper .technologia-accordion-icon svg {
+    width: 35px;
+}
+
+.technologia-accordion-wrapper .accordion-body {
+    background-color: #f7fafa;
+    border-top: 1px solid #d5d8dcb3;
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-accordion-wrapper .technologia-accordion-icon {
+        right: 10px;
+        height: 40px;
+        width: 40px;
+        line-height: 42px;
+    }
+
+    .technologia-accordion-wrapper button.technologia-accordion-title {
+        padding: 15px 50px 10px 20px;
+    }
+}
+
+/*==============================
+Cta One
+===============================*/
+.cta-two-wrapper {
+    background: var(--technologia-primary-color-three);
+    border-radius: 15px;
+    padding: 50px 60px 60px 60px;
+    text-align: center;
+}
+
+.cta-two-title {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -1.1px;
+}
+
+.cta-two-desc {
+    color: #ffffff;
+    padding: 0 10%;
+    font-weight: 500;
+    line-height: 170%;
+    margin: 30px 0 40px;
+}
+
+.cta-two-button-wrapper .technologia-button,
+.cta-two-button-wrapper .technologia-button:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #101010;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cta-two-desc {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cta-two-wrapper {
+        padding: 30px 25px 40px;
+    }
+
+    .cta-two-title {
+        font-size: 42px;
+    }
+}
+
+/*====================================
+# Technologia Tab Widget CSS
+====================================*/
+.technologia-tab-wrapper .nav-tabs .nav-item.show .nav-link,
+.technologia-tab-wrapper .nav-tabs .nav-link.active,
+.technologia-tab-wrapper .nav-tabs .nav-link:focus,
+.technologia-tab-wrapper .nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+.technologia-tab-wrapper .nav-tabs {
+    border-radius: 10px;
+    border: 1px solid rgba(16, 16, 16, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.technologia-tab-images {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.technologia-tab-image {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991.98px) {
+    .technologia-tab-image {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.technologia-tab-image {
+    position: relative;
+}
+.image-tag {
+    background: linear-gradient(90deg, rgba(0, 1, 2, 0.99) 0%, #5f1305 100%) !important;
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: "Saira", sans-serif;
+    width: fit-content;
+    border: 2px solid;
+    border-image-slice: 2;
+    border-width: 2px;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%);
+    padding: 10px 16px;
+    bottom: 16px;
+    line-height: 140%;
+    left: clamp(20px,2.083vw,40px);
+    position: absolute;
+}
+.technologia-tab-wrapper .nav-link {
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: "Jost", sans-serif;
+    width: fit-content;
+    border: 2px solid;
+    border-image-slice: 2;
+    border-width: 2px;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%);
+    background-color: transparent;
+    padding: 8px 16px;
+}
+@media (max-width: 800px) {
+    .technologia-tab-wrapper .nav-link {
+        margin-bottom: 14px;
+    }
+}
+
+.technologia-tab-wrapper .nav-link:last-child {
+    margin-right: 0;
+}
+
+.technologia-tab-wrapper .nav-tabs .nav-link.active,
+.technologia-tab-wrapper .nav-tabs .nav-link:hover {
+    color: #fff;
+    background: linear-gradient(90deg, rgba(0, 1, 2, 0.99) 0%, #5f1305 100%) !important;
+}
+
+.technologia-tab-wrapper .tab-content {
+    margin-top: 25px;
+}
+
+.technologia-tab-text-wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.technologia-tab-text-wrapper ul li {
+    color: #10171e;
+    font-weight: 500;
+    width: 48%;
+    display: inline-block;
+    position: relative;
+}
+
+.technologia-tab-text-wrapper ul li i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .technologia-tab-text-wrapper ul li {
+        width: auto;
+        display: inline-block;
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-tab-text-wrapper ul li {
+        width: 100%;
+    }
+
+    .technologia-tab-wrapper .nav-link {
+        margin-bottom: 8px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .technologia-tab-text-wrapper ul li {
+        width: 100%;
+    }
+
+    .technologia-tab-wrapper .nav-link {
+        margin-bottom: 12px;
+    }
+}
+/*====================================
+# Count Section Two CSS
+====================================*/
+
+.counter-up-section-two-wrapper .count-section-one-content {
+    background-color: transparent;
+    padding-right: 30px;
+    border-radius: 0;
+}
+
+.counter-up-section-two-wrapper .row .p-0 {
+    border-bottom: none !important;
+    border-right: none !important;
+}
+
+.counter-up-section-two-wrapper .row {
+    justify-content: end;
+    margin: 0;
+}
+
+.counter-up-section-two-wrapper .technologia-counter-section-box {
+    background: var(--technologia-primary-color-two);
+}
+
+.counter-up-section-two-wrapper .count-section-one-content .row .p-0:first-child .technologia-counter-section-box {
+    border-radius: 15px 0 0 15px;
+}
+
+.counter-up-section-two-wrapper .count-section-one-content .row .p-0:last-child .technologia-counter-section-box {
+    border-radius: 0 15px 15px 0;
+}
+
+.counter-up-section-two-wrapper .counter-up-section-one-bg {
+    width: 84%;
+}
+
+.counter-up-section-two-wrapper.counter-up-section-one-wrapper {
+    padding: 300px 0 30px 0;
+}
+
+@media only screen and (min-width: 1481px) and (max-width: 1680px) {
+    .counter-up-section-two-wrapper .counter-up-section-one-bg {
+        width: 88.5%;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1480px) {
+    .counter-up-section-two-wrapper .counter-up-section-one-bg {
+        width: 94%;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+    .counter-up-section-two-wrapper .counter-up-section-one-bg {
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .counter-up-section-two-wrapper .counter-up-section-one-bg {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .counter-up-section-two-wrapper .count-section-one-content {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .counter-up-section-two-wrapper .row {
+        justify-content: start;
+    }
+
+    .counter-up-section-two-wrapper .count-section-one-content .row .p-0:first-child .technologia-counter-section-box,
+    .counter-up-section-two-wrapper .count-section-one-content .row .p-0:last-child .technologia-counter-section-box {
+        border-radius: 0;
+    }
+
+    .counter-up-section-two-wrapper .count-section-one-content {
+        background: var(--technologia-primary-color-two);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .counter-up-section-two-wrapper.counter-up-section-one-wrapper {
+        padding: 0;
+    }
+}
+
+/*====================================
+# Team Member One CSS
+====================================*/
+.technologia-single-team-member {
+    position: relative;
+    margin-bottom: clamp(16px, 2vw, 24px);
+}
+
+.technologia-member-designation-name {
+    background-color: var(--technologia-primary-color-one);
+    position: absolute;
+    border-radius: 12px;
+    padding: clamp(16px, 1.042vw, 24px) 0;
+    bottom: clamp(20px, 1.563vw, 34px);
+    left: clamp(20px, 1.563vw, 34px);
+    right: clamp(20px, 1.563vw, 34px);
+}
+
+.technologia-member-image {
+    height: clamp(360px, 27.083vw, 540px);
+    border-radius: 12px;
+    overflow: hidden;
+    display: block;
+}
+
+.technologia-member-image img {
+    height: 100% !important;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.technologia-member-image-wrapper {
+    position: relative;
+}
+
+.technologia-team-member-social-wrapper {
+    position: absolute;
+    top: clamp(20px, 1.563vw, 34px);
+    right: clamp(20px, 1.563vw, 34px);
+    width: fit-content;
+    text-align: center;
+}
+
+.technologia-team-member-social {
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.technologia-single-team-member:hover .technologia-team-member-social {
+    opacity: 1;
+    visibility: visible;
+}
+
+.technologia-team-member-social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.technologia-team-member-social ul li {
+    display: inline-block;
+    background-color: #e1eae1;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    line-height: 1;
+    margin-bottom: 0 !important;
+}
+
+.technologia-team-member-social ul li a {
+    padding: 2px;
+}
+
+.technologia-team-member-social ul li a i {
+    color: #FFA899;
+}
+
+.technologia-team-member-name {
+    font-size: clamp(20px, 1.25vw, 26px);
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Manrope", sans-serif;
+}
+
+.technologia-member-designation {
+    display: block;
+    line-height: 1;
+    font-family: "inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1024px) {
+    .technologia-member-image {
+        height: 400px;
+    }
+}
+
+/*====================================
+# Why Choose Us CSS
+====================================*/
+.technologia-why-choose-section-wrapper {
+    position: relative;
+}
+
+.technologia-why-choose-us-box-item {
+    padding: 30px;
+    background-color: #f0f5da;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.why-choose-us-box-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    line-height: 50px;
+    color: #101010;
+    margin-bottom: 25px;
+}
+
+.why-choose-us-box-desc {
+    transition: 0.3s;
+}
+
+.technologia-why-choose-us-box-item:hover {
+    background-color: var(--technologia-primary-color-two);
+}
+
+.technologia-why-choose-us-box-item:hover .why-choose-us-box-desc {
+    color: #101010;
+}
+
+.technologia-why-choose-box-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.why-choose-us-section-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    right: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+    .why-choose-us-section-image {
+        display: none;
+    }
+}
+
+/*====================================
+# Filterable Gallery CSS
+====================================*/
+.technologia-gallery-filter-button {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.technologia-filter-mobile-title {
+    display: none;
+}
+
+.technologia-gallery-filter-button li {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #141516;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.technologia-gallery-filter-button li:first-child {
+}
+
+.technologia-gallery-filter-button li.active,
+.technologia-gallery-filter-button li:hover {
+    color: white;
+    font-weight: 500;
+
+    background-color: var(--technologia-primary-color-one);
+}
+
+.technologia-gallery-filter-button li.active {
+    cursor: default;
+}
+
+.technologia-gallery-filter-button-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.technologia-single-project-item-wrapper {
+    margin-bottom: 30px;
+    border-radius: 0px !important;
+    overflow: hidden;
+    position: relative;
+}
+
+.technologia-project-image {
+    height: 450px;
+}
+
+.technologia-project-image img {
+    height: 100% !important;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.technologia-project-item-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(16, 16, 16, 0.7);
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.technologia-project-item-details a {
+    height: 55px;
+    width: 55px;
+    background: var(--technologia-primary-color-one);
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    border-radius: 50%;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(-35deg);
+    color: white;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    /* smooth transition */
+}
+
+.technologia-project-item-details a:hover {
+    transform: translate(-50%, -50%) rotate(0deg);
+    color: white;
+}
+
+.technologia-single-project-item-wrapper:hover .technologia-project-item-details {
+    opacity: 1;
+    visibility: visible;
+}
+
+.technologia-project-content-wrapper {
+    padding: clamp(24px, 1.563vw, 30px);
+    background-color: var(--technologia-primary-color-one);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+}
+
+/* Animate in on hover */
+.technologia-single-project-item-wrapper:hover .technologia-project-content-wrapper {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Optional title styling */
+.technologia-project-content-wrapper .project-title {
+    font-family: "Inter", sans-serif;
+    font-size: clamp(16px, 1.5vw, 18px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: clamp(22px, 2vw, 28px);
+    color: white;
+}
+
+.technologia-project-content-wrapper .project-title:hover {
+    color: #ffffff;
+}
+
+.technologia-single-project-item .project-subtitle {
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(20px, 2vw, 24px);
+    font-style: normal;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: clamp(28px, 2.5vw, 34px);
+}
+
+@media only screen and (max-width: 1024px) {
+    .technologia-project-image {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .technologia-filter-mobile-title {
+        display: block;
+        padding: 10px 20px 6px 20px;
+        margin-bottom: 40px;
+        position: relative;
+        background-color: var(--technologia-primary-color-one);
+        color: #ffffff;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+
+    .elementor-image-box-img {
+        flex-shrink: 0;
+    }
+
+    .elementor-image-box-wrapper {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .header-mobile-number {
+        display: none;
+    }
+
+    .technologia-filter-mobile-title:before {
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 15px;
+        right: 20px;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        border-right: 2px solid;
+        border-bottom: 2px solid;
+        top: 13px;
+    }
+
+    .technologia-filter-mobile-title.active:before {
+        -ms-transform: rotate(-133deg);
+        -webkit-transform: rotate(-133deg);
+        transform: rotate(-133deg);
+        top: auto;
+        bottom: 13px;
+    }
+
+    ul.technologia-gallery-filter-button {
+        display: none;
+    }
+
+    .technologia-gallery-filter-button-wrapper li {
+        display: block !important;
+        margin-bottom: 5px !important;
+        text-align: center;
+        padding: 12px 15px;
+    }
+
+    .technologia-filter-mobile-title {
+        margin-bottom: 20px;
+    }
+}
+
+/*====================================
+# Project Info CSS
+====================================*/
+
+.project-info-list-wrapper {
+    background-color: #ddf247;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.project-info-title {
+    font-size: 30px;
+}
+
+.project-info-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.project-info-list ul li {
+    border-bottom: 1px solid #c9db42;
+    padding: 10px 0;
+    color: #101010;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-info-list ul li strong {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.project-info-list ul li:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+/*====================================
+# Contact Box CSS
+====================================*/
+.contact-box-one-item {
+    border-radius: 24px;
+    border: 1px solid #e1eae1;
+    padding: clamp(36px, 2.604vw, 50px);
+    margin-bottom: 30px;
+    text-align: center;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.contact-one-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    line-height: 50px;
+    margin: 0 auto clamp(32px, 2.083vw, 44px);
+    transition: stroke 0.3s ease;
+}
+
+.contact-one-icon svg path {
+    stroke: var(--technologia-primary-color-one);
+    transition: stroke 0.3s ease;
+}
+
+.technologia-contact-one-title {
+    font-size: clamp(18px, 1.25vw, 26px);
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    color: #0c0c0d;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.technologia-contact-one-desc ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.technologia-contact-one-desc ul li a,
+.technologia-contact-one-desc p,
+.technologia-contact-one-desc p a {
+    font-family: "Inter", sans-serif;
+    font-size: clamp(16px, 0.938vw, 20px);
+    font-style: normal;
+    font-weight: 400;
+    color: #45474f;
+    line-height: 28px;
+    transition: color 0.3s ease;
+}
+
+.technologia-contact-one-desc ul li {
+    margin: 0 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact-box-one-item {
+        padding: 24px;
+    }
+}
+
+/*====================================
+# Hover Effects
+====================================*/
+.contact-box-one-item:hover {
+    background-color: #FFA899;
+}
+
+.contact-box-one-item:hover .technologia-contact-one-title,
+.contact-box-one-item:hover .technologia-contact-one-desc ul li a,
+.contact-box-one-item:hover .technologia-contact-one-desc p,
+.contact-box-one-item:hover .technologia-contact-one-desc p a {
+    color: #ffffff;
+}
+
+.contact-box-one-item:hover .contact-one-icon svg path {
+    stroke: #ffffff;
+}
+.content-block {
+    background: rgba(15, 15, 15, 0.5);
+    backdrop-filter: blur(15px);
+    padding: 40px 30px;
+}
+.wpcf7-list-item-label {
+    color: #fff;
+}
+.wpcf7-list-item {
+    margin: 0px !important;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+.stroke-text-3 {
+    font-size: 55px;
+    line-height: 120px;
+    background: linear-gradient(90deg, #cce3ff 0%, #ffa899 100%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px transparent;
+    color: #141414;
+}
+.submit-form {
+    display: flex;
+    align-items: center;
+        justify-content: center !important;
+}
+.mc4wp-form .mc4wp-form-21 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.stroke-text-footer {
+    background: linear-gradient(90deg, rgba(162, 203, 252, 0.99) 43.32%, #fff 51.65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (max-width: 1300px) {
+    .wpcf7-list-item {
+        margin-bottom: 12px !important;
+    }
+}
+.banner-side-card{
+     border: 2px solid !important;
+    border-image-slice: 2 !important;
+    border-width: 2px !important;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%) !important;   
+    padding: 20px !important;
+}
+.elementor .elementor-element.elementor-widget-n-tabs:not(:has(>.elementor-widget-container))>.e-n-tabs>.e-n-tabs-heading .e-n-tab-title[aria-selected=true]{
+      border: 2px solid !important;
+    border-image-slice: 2 !important;
+    border-width: 2px !important;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%) !important;   
+    background: linear-gradient(90deg, rgba(0, 1, 2, 0.99) 0%, #FFA899 100%) !important;
+    color: #fff !important;
+    padding: 8px 16px !important;
+      font-family: "Jost", Sans-serif !important;
+      font-size: 18px !important;
+}
+
+.elementor-widget-n-tabs .e-n-tab-title-text {
+     line-height: 150% !important;
+      font-family: "Jost", Sans-serif !important;
+      font-size: 18px !important;
+}
+.elementor-widget-n-tabs .e-n-tabs-heading{
+    display: flex !important;
+    gap: 24px  !important;
+    align-items: center !important;
+}
+.elementor-widget-n-tabs .e-n-tab-title {
+        border: 2px solid !important;
+    border-image-slice: 2 !important;
+    border-width: 2px !important;
+    border-image-source: linear-gradient(90deg, #a2cbfcfc 0%, #ff755d 100%) !important;   
+    padding: 20px !important; 
+       line-height: 150% !important;
+      font-family: "Jost", Sans-serif !important;
+      font-size: 18px !important;
+      background-color: transparent !important;
+    padding: 8px 16px !important;
+    color: #fff !important;
+}
+.width-class-block{
+    width: 1920px !important;
+}

@@ -1,0 +1,61 @@
+/*!
+Theme Name: Technologia
+Theme URI:  https://technologia.uiparadox.com/
+Author: Uiparadox
+Author URI: https://uiparadox.com/
+Description: Digital Agency  WordPress  Theme
+Version: 1.0.0
+Tested up to: 6.8
+Requires PHP: 7.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: technologia
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*//* Style the checkbox container */
+.wpcf7-form-control.wpcf7-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Hide the default checkbox */
+.wpcf7-form-control.wpcf7-checkbox input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+}
+
+/* Custom checkbox design */
+.wpcf7-form-control.wpcf7-checkbox .wpcf7-list-item-label::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.wpcf7-form-control.wpcf7-checkbox .wpcf7-list-item-label::after {
+    content: "";
+    color: #fff;
+  
+}
+/* Checked state */
+.wpcf7-form-control.wpcf7-checkbox input[type="checkbox"]:checked + .wpcf7-list-item-label::before {
+    background-color: #ff755d; /* Change to your preferred color */
+    border-color: #ff755d;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px" height="18px"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.custom-form input[type="text"]::before {
+    content: "\f007"; /* User icon Unicode */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #92949f;
+}

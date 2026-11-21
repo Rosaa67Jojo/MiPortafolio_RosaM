@@ -1,0 +1,111 @@
+HTTrack3.51-0 launched on Sat, 21 Nov 2026 16:53:09 at https://technologia.uiparadox.com/ +*.png +*.gif +*.jpg +*.jpeg +*.webp +*.avif +*.svg +*.css +*.js +*.woff2 +*.woff +*.ttf +*.otf +*.mp4 +*.webm -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2%f#f -F "Mozilla/5.0 (compatible; HTTrack/3.x; +https://www.httrack.com/)" -%F "<!-- Mirrored from {url} by HTTrack Website Copier/3.x [XR&CO], {date} -->" -%l "es, en, *" https://technologia.uiparadox.com/ -O1 C:\Users\maci0\OneDrive\Desktop\PortafolioRosaMartinez +*.png +*.gif +*.jpg +*.jpeg +*.webp +*.avif +*.svg +*.css +*.js +*.woff2 +*.woff +*.ttf +*.otf +*.mp4 +*.webm -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:54:36	Error: 	"Not Found" (404) at link https://technologia.uiparadox.com/wp-content/uploads/2025/05/baner-bg.jpg (from https://technologia.uiparadox.com/)
+16:55:15	Warning: 	Moved Permanently for https://technologia.uiparadox.com/index.php/contact/
+16:55:15	Warning: 	File has moved from https://technologia.uiparadox.com/index.php/contact/ to https://technologia.uiparadox.com/contact/
+16:55:15	Warning: 	Moved Permanently for https://technologia.uiparadox.com/index.php/about-us/
+16:55:15	Warning: 	File has moved from https://technologia.uiparadox.com/index.php/about-us/ to https://technologia.uiparadox.com/about-us/
+16:55:15	Warning: 	Moved Permanently for https://technologia.uiparadox.com/index.php/top-services/
+16:55:15	Warning: 	File has moved from https://technologia.uiparadox.com/index.php/top-services/ to https://technologia.uiparadox.com/top-services-2/
+16:55:15	Warning: 	Moved Permanently for https://technologia.uiparadox.com/index.php/portfolio/
+16:55:15	Warning: 	File has moved from https://technologia.uiparadox.com/index.php/portfolio/ to https://technologia.uiparadox.com/portfolio/
+16:55:15	Error: 	"Not Found" (404) at link https://technologia.uiparadox.com/cdn-cgi/l/email-protection (from https://technologia.uiparadox.com/)
+16:55:28	Warning: 	Moved Permanently for https://technologia.uiparadox.com/index.php/blog-grid/
+16:55:28	Warning: 	File has moved from https://technologia.uiparadox.com/index.php/blog-grid/ to https://technologia.uiparadox.com/blog-grid/
+16:55:34	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=1182
+16:55:34	Warning: 	File has moved from https://technologia.uiparadox.com/?p=1182 to https://technologia.uiparadox.com/about-us/
+16:55:34	Warning: 	Moved Permanently for https://technologia.uiparadox.com/index.php/pricing/
+16:55:34	Warning: 	File has moved from https://technologia.uiparadox.com/index.php/pricing/ to https://technologia.uiparadox.com/pricing/
+16:55:35	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=182
+16:55:35	Warning: 	File has moved from https://technologia.uiparadox.com/?p=182 to https://technologia.uiparadox.com/portfolio/
+16:55:36	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=166
+16:55:36	Warning: 	File has moved from https://technologia.uiparadox.com/?p=166 to https://technologia.uiparadox.com/pricing/
+16:55:36	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=1260
+16:55:36	Warning: 	File has moved from https://technologia.uiparadox.com/?p=1260 to https://technologia.uiparadox.com/404-error/
+16:55:36	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=2965
+16:55:36	Warning: 	File has moved from https://technologia.uiparadox.com/?p=2965 to https://technologia.uiparadox.com/top-services-2/
+16:55:36	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=1354
+16:55:36	Warning: 	File has moved from https://technologia.uiparadox.com/?p=1354 to https://technologia.uiparadox.com/blog-grid/
+16:55:55	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=134
+16:55:55	Warning: 	File has moved from https://technologia.uiparadox.com/?p=134 to https://technologia.uiparadox.com/contact/
+16:55:55	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=3102
+16:55:55	Warning: 	File has moved from https://technologia.uiparadox.com/?p=3102 to https://technologia.uiparadox.com/decipher-complexity-bytes-bits-unraveling-it-mysteries/
+16:55:56	Error: 	"Method Not Allowed" (405) at link https://technologia.uiparadox.com/xmlrpc.php (from https://technologia.uiparadox.com/decipher-complexity-bytes-bits-unraveling-it-mysteries/)
+16:57:34	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=3103
+16:57:34	Warning: 	File has moved from https://technologia.uiparadox.com/?p=3103 to https://technologia.uiparadox.com/fuel-your-imagination-innovation-station-it-musings-by-technologia/
+16:57:47	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/?p=3097 (from https://technologia.uiparadox.com/explore-the-depths-code-corner-it-wisdom-straight-from-technologia/)
+16:57:47	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/tag/spa/ (from https://technologia.uiparadox.com/explore-the-depths-code-corner-it-wisdom-straight-from-technologia/)
+16:57:47	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/how-personalization-is-shaping-the-future-of-tech/feed/ (from https://technologia.uiparadox.com/how-personalization-is-shaping-the-future-of-tech/)
+16:57:47	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Fhow-personalization-is-shaping-the-future-of-tech%2F (from https://technologia.uiparadox.com/how-personalization-is-shaping-the-future-of-tech/)
+16:57:49	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Fhow-personalization-is-shaping-the-future-of-tech%2F&format=xml (from https://technologia.uiparadox.com/how-personalization-is-shaping-the-future-of-tech/)
+16:57:51	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/wp/v2/posts/3094 (from https://technologia.uiparadox.com/how-personalization-is-shaping-the-future-of-tech/)
+16:57:52	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/?p=3094 (from https://technologia.uiparadox.com/how-personalization-is-shaping-the-future-of-tech/)
+16:57:56	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/the-rise-of-personalization-in-technology-2/feed/ (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology-2/)
+16:57:57	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Fthe-rise-of-personalization-in-technology-2%2F (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology-2/)
+16:57:59	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Fthe-rise-of-personalization-in-technology-2%2F&format=xml (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology-2/)
+16:58:01	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/wp/v2/posts/3093 (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology-2/)
+16:58:05	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/?p=3093 (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology-2/)
+16:59:49	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/tailored-by-tech-the-new-standard-for-digital-experience/feed/ (from https://technologia.uiparadox.com/tailored-by-tech-the-new-standard-for-digital-experience/)
+16:59:51	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Ftailored-by-tech-the-new-standard-for-digital-experience%2F (from https://technologia.uiparadox.com/tailored-by-tech-the-new-standard-for-digital-experience/)
+16:59:52	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Ftailored-by-tech-the-new-standard-for-digital-experience%2F&format=xml (from https://technologia.uiparadox.com/tailored-by-tech-the-new-standard-for-digital-experience/)
+16:59:53	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/wp/v2/posts/3079 (from https://technologia.uiparadox.com/tailored-by-tech-the-new-standard-for-digital-experience/)
+16:59:54	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/?p=3079 (from https://technologia.uiparadox.com/tailored-by-tech-the-new-standard-for-digital-experience/)
+16:59:57	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/the-rise-of-personalization-in-technology/feed/ (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology/)
+16:59:58	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Fthe-rise-of-personalization-in-technology%2F (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology/)
+17:00:00	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Fthe-rise-of-personalization-in-technology%2F&format=xml (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology/)
+17:00:01	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/wp/v2/posts/3080 (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology/)
+17:00:01	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/?p=3080 (from https://technologia.uiparadox.com/the-rise-of-personalization-in-technology/)
+17:00:05	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/hello-world-2/feed/ (from https://technologia.uiparadox.com/hello-world-2/)
+17:00:07	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Fhello-world-2%2F (from https://technologia.uiparadox.com/hello-world-2/)
+17:00:07	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Fhello-world-2%2F&format=xml (from https://technologia.uiparadox.com/hello-world-2/)
+17:00:09	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/wp/v2/posts/2952 (from https://technologia.uiparadox.com/hello-world-2/)
+17:00:09	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/?p=2952 (from https://technologia.uiparadox.com/hello-world-2/)
+17:00:13	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/"https://gravatar.com//" (from https://technologia.uiparadox.com/hello-world-2/)
+17:01:53	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/hello-world-2/?replytocom=6 (from https://technologia.uiparadox.com/hello-world-2/)
+17:02:00	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-8/feed/ (from https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-8/)
+17:02:01	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Ftips-for-taking-care-of-your-skin-during-humid-weathers-8%2F (from https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-8/)
+17:02:01	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftechnologia.uiparadox.com%2Ftips-for-taking-care-of-your-skin-during-humid-weathers-8%2F&format=xml (from https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-8/)
+17:02:01	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/wp/v2/posts/1362 (from https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-8/)
+17:02:03	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/?p=1362 (from https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-8/)
+17:02:04	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/blog-grid/page/1/ (from https://technologia.uiparadox.com/blog-grid/page/2/)
+17:02:06	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/category/face-massage/feed/ (from https://technologia.uiparadox.com/category/face-massage/)
+17:02:11	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/wp-json/wp/v2/categories/4 (from https://technologia.uiparadox.com/category/face-massage/)
+17:02:14	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/?page_id=156 (from https://technologia.uiparadox.com/category/face-massage/)
+17:02:15	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-7/ (from https://technologia.uiparadox.com/category/face-massage/)
+17:02:20	Info: 	Retry after error 429 (Too Many Requests) at link https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-4/ (from https://technologia.uiparadox.com/category/face-massage/)
+17:02:31	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=3097
+17:02:31	Warning: 	File has moved from https://technologia.uiparadox.com/?p=3097 to https://technologia.uiparadox.com/explore-the-depths-code-corner-it-wisdom-straight-from-technologia/
+17:02:35	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=3094
+17:02:35	Warning: 	File has moved from https://technologia.uiparadox.com/?p=3094 to https://technologia.uiparadox.com/how-personalization-is-shaping-the-future-of-tech/
+17:02:35	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=3093
+17:02:35	Warning: 	File has moved from https://technologia.uiparadox.com/?p=3093 to https://technologia.uiparadox.com/the-rise-of-personalization-in-technology-2/
+17:02:35	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=3079
+17:02:35	Warning: 	File has moved from https://technologia.uiparadox.com/?p=3079 to https://technologia.uiparadox.com/tailored-by-tech-the-new-standard-for-digital-experience/
+17:02:35	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=3080
+17:02:35	Warning: 	File has moved from https://technologia.uiparadox.com/?p=3080 to https://technologia.uiparadox.com/the-rise-of-personalization-in-technology/
+17:02:35	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=2952
+17:02:35	Warning: 	File has moved from https://technologia.uiparadox.com/?p=2952 to https://technologia.uiparadox.com/hello-world-2/
+17:02:35	Warning: 	Moved Permanently for https://technologia.uiparadox.com/"https://gravatar.com//"
+17:02:35	Warning: 	File has moved from https://technologia.uiparadox.com/"https://gravatar.com//" to https://technologia.uiparadox.com/%22https:/gravatar.com/
+17:02:36	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=1362
+17:02:36	Warning: 	File has moved from https://technologia.uiparadox.com/?p=1362 to https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-8/
+17:02:37	Warning: 	Moved Permanently for https://technologia.uiparadox.com/blog-grid/page/1/
+17:02:37	Warning: 	File has moved from https://technologia.uiparadox.com/blog-grid/page/1/ to https://technologia.uiparadox.com/blog-grid/
+17:02:51	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=749
+17:02:51	Warning: 	File has moved from https://technologia.uiparadox.com/?p=749 to https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-6/
+17:02:53	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=747
+17:02:53	Warning: 	File has moved from https://technologia.uiparadox.com/?p=747 to https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-5/
+17:02:53	Error: 	"Not Found" (404) at link https://technologia.uiparadox.com/%22https:/gravatar.com/ (from https://technologia.uiparadox.com/"https://gravatar.com//")
+17:02:54	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=748
+17:02:54	Warning: 	File has moved from https://technologia.uiparadox.com/?p=748 to https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-7/
+17:02:54	Warning: 	Moved Permanently for https://technologia.uiparadox.com/?p=742
+17:02:54	Warning: 	File has moved from https://technologia.uiparadox.com/?p=742 to https://technologia.uiparadox.com/tips-for-taking-care-of-your-skin-during-humid-weathers-4/
+
+HTTrack Website Copier/3.51-0 mirror complete in 9 minutes 45 seconds : 428 links scanned, 355 files written (56805684 bytes overall) [46926881 bytes received at 80216 bytes/sec], 13222775 bytes transferred using HTTP compression in 216 files, ratio 20%, 17.8 requests per connection
+(4 errors, 56 warnings, 40 messages)
